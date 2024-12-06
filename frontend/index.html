@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>challenge AluraGeek</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Enlace a la librería de iconos Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Encabezado -->
+  <header class="header">
+    <div class="logo">
+      <span>❤️❤️❤️</span> <span>AluraGeek</span>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+    </nav>    
+  </header>
+
+    <main class="main">
+        <section class="add-product">
+            <h2>AGREGAR PRODUCTO:</h2>
+            <form id="product-form" enctype="multipart/form-data">
+              <input type="text" id="product-name" placeholder="Nombre..." required>
+              <input type="text" id="product-price" placeholder="Precio..." required>
+              <input type="file" id="product-image" accept="image/*" required>
+              <div class="buttons">
+                <button type="submit">Agregar</button>
+                <button type="reset">Nuevo</button>
+              </div>
+            </form>
+          </section>
+
+    <section class="products">
+      <h2>MIS PRODUCTOS:</h2>
+      <div class="product-list" id="product-list">
+        <!-- Los productos se agregarán dinámicamente -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="social-icons">
+      <a href="https://www.facebook.com" target="_blank" class="icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.twitter.com" target="_blank" class="icon"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.instagram.com" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.linkedin.com" target="_blank" class="icon"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+    <p>&copy; 2024 wilsonayalapoma. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
